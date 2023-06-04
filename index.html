@@ -9,17 +9,17 @@
   <p id="output"></p>
 
   <script>
-    // Hitta knapparna och p-taggen genom id
+  
     var alertButton = document.getElementById('alertButton');
     var printButton = document.getElementById('printButton');
     var output = document.getElementById('output');
 
-    // Lägg till händelsehanterare för klick på alertButton
+   
     alertButton.addEventListener('click', function() {
       alert('Detta är en alertruta med valfritt innehåll!');
     });
 
-    // Lägg till händelsehanterare för klick på printButton
+   
     printButton.addEventListener('click', function() {
       output.textContent = 'Detta är valfritt innehåll som skrivs ut.';
     });
